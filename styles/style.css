@@ -202,3 +202,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
     font-size: 16px;
 }
+.cute-icon{
+    padding-right: 24px;
+    padding-top: 30px;
+    display: inline-block;
+}
