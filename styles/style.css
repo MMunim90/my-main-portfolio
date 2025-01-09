@@ -28,6 +28,7 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
+    margin-right: 30px;
 }
 .section-title{
     font-size: 35px;
@@ -45,6 +46,18 @@
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+.putu{
+    text-decoration: none;
+    color: white;
+}
+.hati{
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+} 
+.putu, .hati{
+    margin-top: 24px;
 }
 
 /* nav styles */
