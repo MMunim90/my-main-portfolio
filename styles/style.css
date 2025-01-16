@@ -59,7 +59,9 @@
 .putu, .hati{
     margin-top: 24px;
 }
-
+.add{
+    text-decoration: none;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -219,4 +221,28 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding-right: 24px;
     padding-top: 30px;
     display: inline-block;
+}
+
+
+/* responsice media query */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skill-container, .resume-container, footer, .about-items{
+        flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+    .about{
+        padding: 65px;
+    }
 }
